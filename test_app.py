@@ -5,11 +5,11 @@ def test_summarize_log():
     runner = CliRunner()
 
     test_log_content = """
-INFO Starting process
-WARN Disk space low
-ERROR Failed to start
-INFO Process ended
-"""
+    INFO Starting process
+    WARN Disk space low
+    ERROR Failed to start
+    INFO Process ended
+    """
 
     with runner.isolated_filesystem():
         with open("test.log", "w") as f:
