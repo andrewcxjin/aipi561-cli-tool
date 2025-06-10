@@ -33,5 +33,8 @@ def summarize(logfile):
     except Exception as e:
         print(f"Error: {e}")
 
-if __name__ == "__main__":
+def main():
     summarize()
+
+if __name__ == "__main__":
+    main()
