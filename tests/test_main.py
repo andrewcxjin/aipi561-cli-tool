@@ -1,5 +1,5 @@
 from click.testing import CliRunner
-from main import summarize
+from app import summarize
 
 def test_summarize_log():
     runner = CliRunner()
